@@ -1,0 +1,41 @@
+
+.navbar {
+  background-color: black;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0;
+  font-family: open-sans, sans-serif; 
+  color: white;
+}
+.navbar-logo img{
+  padding-right: 15px;
+  width: 150px;
+}
+.case_study_headline {
+  font-family: Josefin Sans, sans-serif; 
+  color: white; 
+}
+.case_study_subline {
+  font-family: Open-Sans, sans-serif; 
+  color: #BBf51c;
+}
+.why_mestow_container {
+  background-color: black; 
+  color: white; 
+}
+
+.why_mestow {
+  font-family: Josefin Sans, sans-serif; 
+  color: white; 
+}
+/* Hero Image */
+.jumbotron_background {
+    background-image: url(../images/mestow_hero_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
