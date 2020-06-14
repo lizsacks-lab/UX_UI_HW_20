@@ -1,10 +1,15 @@
-
-
-
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 1030; 
+}
 .navbar-nav {
   margin-left: auto;
   margin-right: 0;
   font-family: open-sans, sans-serif; 
+  color: white;
+}
+.navbar-dark .navbar-nav .nav-link {
   color: white;
 }
 .navbar-logo img{
@@ -44,29 +49,64 @@ h4{
   font-size: 25px;
   padding-left: 100px;
 }
+.user_flow_text {
+  padding-top: 50px;
+}
+.link {
+  font-size: 15px;
+}
+
+.research_tabs {
+  padding-bottom: 10px;
+}
+.research_content {
+  padding-bottom: 100px;
+  padding-left: 115px; 
+  padding-right: 100px;
+}
 /* Hero Image */
 .jumbotron_background {
     background-image: url(../images/mestow_hero_image.png);
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
-    height: calc(100vh - 25px);
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
- 
+  }
+  .the_problem {
+    padding-bottom: 50px;
   }
 .white_sections {
       background-color: white; 
       color: black; 
+      padding
     }
 .body_text {
   font-family: open-sans, sans-serif;
   padding-left: 100px;
+  padding-right: 100px; 
 }
-.user_flow_section {
+.feature_prior {
   padding-top: 50px;
   padding-right: 50px; 
+  padding-bottom: 100px;
+  
+}
+.user_flow_section {
+  padding-top: 100px;
+}
+.user_flow_section img {
+  margin-left: 100px;
+  margin-right: 100px; 
+  padding-bottom: 50px;
+  margin-top: 100px;
+  display: flex;
+  justify-items: left;
+}
+.defnition_section {
+  padding-bottom: 50px;
 }
 .bullets {
   padding-left: 50px;
@@ -96,7 +136,7 @@ h4{
 }
 .footer_text {
   color: white;
-  font-family: Josefin Sans; sans-serif;
+  font-family: Josefin Sans, sans-serif;
   font-size: 20px; 
   
 }
@@ -112,4 +152,31 @@ h4{
 }
 .li {
   padding: 10px;
+}
+#myTab {
+  border: none;
+}
+#myTab h4 {
+  color:#495057;
+  padding-left: 0;
+}
+#myTab, .tab-content {
+  margin-left: 100px;
+}
+
+.nav-tabs .nav-link.active h4 {
+  text-decoration: underline;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  border: none;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border: none;
+}
+
+.white_sections.final-product img {
+  max-width: calc(100% - 100px);
+  margin-left: 100px;
 }

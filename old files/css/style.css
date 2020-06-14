@@ -1,0 +1,120 @@
+
+
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0;
+  font-family: open-sans, sans-serif; 
+  color: white;
+}
+.navbar-logo img{
+  padding-right: 15px;
+  width: 150px;
+}
+.case_study_headline {
+  font-family: Josefin Sans, sans-serif; 
+  color: white; 
+  font-size: 50px;
+  text-align: center; 
+}
+.case_study_subline {
+  font-family: Open-Sans, sans-serif; 
+  color: #BBf51c;
+  text-align: center; 
+}
+.container-fluid {
+  background-color: black; 
+  color: white; 
+}
+
+h3 {
+  font-family: Josefin Sans, sans-serif; 
+  color: #BE5D0A;
+  font-size: 40px;
+  padding-left: 100px;
+}
+h4 {
+  font-family: Josefin Sans, sans-serif; 
+  color: #BE5D0A;
+  font-size: 25px; 
+  padding-left: 100px;
+}
+#myTab {
+  font-family: Josefin Sans, sans-serif; 
+  color: #BE5D0A;
+  font-size: 25px; 
+}
+.why_mestow_text {
+  font-family: open-sans, sans-serif;
+  font-size: 25px;
+  padding-left: 100px;
+}
+/* Hero Image */
+.jumbotron_background {
+    background-image: url(../images/mestow_hero_image.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+  }
+.white_sections {
+      background-color: white; 
+      color: black; 
+    }
+.body_text {
+  font-family: open-sans, sans-serif;
+  padding-left: 100px;
+}
+.user_flow_section {
+  padding-top: 50px;
+  padding-right: 50px; 
+}
+.bullets {
+  padding-left: 50px;
+}
+.five_phones {
+  height: 10px;
+}
+.footer_left {
+  color: white; 
+  width: 30%;
+  display: flex; 
+  align-items: flex-end; 
+  padding-left: 20px; 
+}
+.footer_center {
+  width: 40%;
+}
+.footer_right {
+  width: 20%;
+  padding-top: 20px; 
+  padding-left: 70px; 
+}
+.footer {
+  display: flex;
+  background-color: #BE5D0A; 
+  height: 150px;
+}
+.footer_text {
+  color: white;
+  font-family: Josefin Sans; sans-serif;
+  font-size: 20px; 
+  
+}
+.social_icons {
+  display: flex; 
+  flex-direction: row; 
+}
+.email {
+  padding: 10px;
+}
+.id {
+  padding: 10px;
+}
+.li {
+  padding: 10px;
+}
