@@ -38,11 +38,34 @@ h3 {
   font-size: 40px;
   padding-left: 100px;
 }
+.user_persona_headline {
+  font-family: Josefin Sans, sans-serif; 
+  color: black;
+  font-size: 30px;
+  padding-left: 100px;
+}
+.user_persona_subline {
+  color: black;
+  padding-left: 100px;
+}
+.survey_graphics img {
+  padding-left: 200px;
+}
 h4{
   font-family: Josefin Sans, sans-serif; 
   color: #BE5D0A;
   font-size: 25px; 
   padding-left: 100px;
+}
+h5{
+  font-family: Josefin Sans, sans-serif; 
+  color: #BE5D0A;
+  font-size: 25px; 
+}
+.tab_quotes{
+  font-family: Josefin Sans, sans-serif; 
+  color: #BE5D0A;
+  font-size: 20px; 
 }
 .why_mestow_text {
   font-family: open-sans, sans-serif;
@@ -59,7 +82,7 @@ h4{
 .research_tabs {
   padding-bottom: 10px;
 }
-.research_content {
+.tab-content {
   padding-bottom: 100px;
   padding-left: 115px; 
   padding-right: 100px;
@@ -88,15 +111,18 @@ h4{
   padding-left: 100px;
   padding-right: 100px; 
 }
+
 .feature_prior {
   padding-top: 50px;
   padding-right: 50px; 
   padding-bottom: 100px;
-  
+  justify-content: center;
 }
+
 .user_flow_section {
   padding-top: 100px;
 }
+
 .user_flow_section img {
   margin-left: 100px;
   margin-right: 100px; 
@@ -110,10 +136,13 @@ h4{
 }
 .bullets {
   padding-left: 50px;
+  padding-right: 75px;
 }
 .five_phones {
-  height: 10px;
+  max-width: calc(100% - 100px);
+  margin-left: 100px;
 }
+
 .footer_left {
   color: white; 
   width: 30%;
@@ -166,6 +195,7 @@ h4{
 
 .nav-tabs .nav-link.active h4 {
   text-decoration: underline;
+  color: #BE5D0A;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
@@ -179,4 +209,11 @@ h4{
 .white_sections.final-product img {
   max-width: calc(100% - 100px);
   margin-left: 100px;
+}
+.design_column {
+  width: 33%;
+  margin-left: 100px;
+}
+.design_process_images {
+  
 }
