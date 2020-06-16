@@ -16,6 +16,9 @@
   padding-right: 15px;
   width: 150px;
 }
+.feature_prior_text {
+  text-align: center;
+}
 .case_study_headline {
   font-family: Josefin Sans, sans-serif; 
   color: white; 
@@ -71,6 +74,7 @@ h5{
   font-family: open-sans, sans-serif;
   font-size: 25px;
   padding-left: 100px;
+  
 }
 .user_flow_text {
   padding-top: 50px;
@@ -104,11 +108,11 @@ h5{
 .white_sections {
       background-color: white; 
       color: black; 
-      padding
+      
     }
 .body_text {
   font-family: open-sans, sans-serif;
-  padding-left: 100px;
+  padding-left: 150px;
   padding-right: 100px; 
 }
 
@@ -116,7 +120,7 @@ h5{
   padding-top: 50px;
   padding-right: 50px; 
   padding-bottom: 100px;
-  justify-content: center;
+  
 }
 
 .user_flow_section {
@@ -210,10 +214,10 @@ h5{
   max-width: calc(100% - 100px);
   margin-left: 100px;
 }
-.design_column {
-  width: 33%;
-  margin-left: 100px;
+.design_column img{
+  max-width: 90%;
 }
+
 .design_process_images {
-  
-}
+  padding: 0px;
+  }
